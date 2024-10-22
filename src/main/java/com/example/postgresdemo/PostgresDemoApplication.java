@@ -12,5 +12,6 @@ public class PostgresDemoApplication {
 		System.out.println("START:" + Time.now());
 		SpringApplication.run(PostgresDemoApplication.class, args);
 		System.out.println("End:" + Time.now());
+		System.out.println("new change:"+ Time.now());
 	}
 }
