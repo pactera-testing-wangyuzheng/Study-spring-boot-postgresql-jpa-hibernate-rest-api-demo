@@ -18,5 +18,6 @@ public class PostgresDemoApplication {
 		SpringApplication.run(PostgresDemoApplication.class, args);
 		Date date2 = new Date();
 		System.out.println("End:" + formatter.format(date2));
+		System.out.println("test");
 	}
 }
